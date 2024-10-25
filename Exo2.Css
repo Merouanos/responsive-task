@@ -1,0 +1,67 @@
+.container{
+  display :flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  height: 100vh;
+}
+.container div{
+  text-align: center;
+  align-content: center;
+  background-color: #eee;
+  width: 90%;
+  height: 20%;
+}
+span{
+  font-size: 1.3em;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) {
+ 
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+  .container div{
+    width: 26%;
+    height: 20%;
+  }
+  .container .one{
+    width: 90%;
+  }
+  span{
+    color:red
+  }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+  .container div{
+    width: 42%;
+    height: 20%;
+  }
+  .container .four{
+    width: 90%;
+  }
+  span{
+    color:rgb(17, 187, 130);
+  }
+}
